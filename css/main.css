@@ -1,0 +1,58 @@
+#navbar {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    padding: 1em, 0,0,0; 
+    width: 17%;
+    border-right: solid 0.5em black;
+}
+
+
+main {
+    margin-left: 17%;
+}
+
+header {
+    font-size: 4em;
+}
+
+#navbar header{
+    font-size: 1.5em;
+    word-wrap: break-word;
+    margin-left: 1em;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: grey;
+    border-top: 0.1em groove grey;
+}
+
+/* To show the layout of using bootstrap */
+div {
+    border: 0.1em solid grey;
+}
+
+section{
+    border-bottom: 1em solid #b19cd9;
+    border-right: 1em solid pink;
+    margin-left: 1em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+        height:35%;
+        width: 100%;
+        z-index: 1;
+        /* This is needed to cover the main from overlapping with the navbar*/
+        background-color: white;
+    }
+    
+    main{
+        margin-top: 50%;
+        z-index: 0;
+    }
+}

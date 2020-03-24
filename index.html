@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel='stylesheet' href='css/main.css'>
+
+          <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          
+        <title>Bootstrap Documentation</title>
+    </head>
+    <body>
+        <nav id='navbar'>
+            <header>Bootstrap Documentation</header>
+            <a class='nav-link' href='#Introduction'>Introduction</a>
+            <a class='nav-link' href='#History'>History</a>
+            <a class='nav-link' href='#Layout'>Layout</a>
+            <a class='nav-link' href='#Caveats'>Caveats</a>
+            <a class='nav-link' href='#Reference'>Reference</a>
+            
+        </nav>
+        <main id='main-doc'>
+            <section class='main-section' id='Introduction'>
+                <header>Introduction</header>
+                <p>Bootstrap is a framework with the mobile-first design approach for building responsive web sites. It provides pre-made styles, layout tools and interactive components. To use this framework you also need 
+                    jQuery and Popper.js and Bootstrap's JavaScript plugins and Bootstrap's 
+                    stylesheet. </p>
+            </section>
+            <section class='main-section' id='History'>
+                <header>History</header>
+                <p>Bootstrap was originally created at Twitter called Twitter Blueprint. 
+                    The project evolved at Twitter's Hack Week. Bootstrap has now became a 
+                    popular open source project. </p>
+            </section>
+            <section class='main-section' id='Layout'>
+                <header>Layout</header>
+                <p>The layout uses a container and a series of rows and columns. It starts with a <code>&lt;div&gt;</code> tag with the class 'container'. 
+                    In that container class for the <code>&lt;div&gt;</code> tag, you have atleast one <code>&lt;div&gt;</code> tag with class of 'row'. 
+                    In that row class for the <code>&lt;div&gt;</code>  tag, you have atleast one <code>&lt;div&gt;</code>  tag with class of 'col'.</p>
+                <p>Here is an example of a container with a row and 2 columns.</p>
+                <pre>
+                    &lt;div class='container'&gt;
+                        &lt;div class='row'&gt;
+                            &lt;div class='col'&gt;
+                                This is the first column.
+                            &lt;/div&gt;
+                            &lt;div class='col'&gt;
+                                This is the second column.
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;   
+                </pre>    
+                <p>This looks like this on the website:</p>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                            This is the first column.
+                        </div>
+                        <div class='col'>
+                            This is the second column.
+                        </div>
+                    </div>
+                </div>  
+
+            </section>
+            
+            <section class='main-section' id='Caveats'>
+                <header>Caveats</header>
+                <h1>Here lies caveats that are important to know when working with Bootstrap:</h1>
+                <ul>
+                    <li>
+                        <p>Bootstrap 4 uses flexbox as in most of the components have flexbox enabled.</p>
+                    </li>
+                    <li>
+                        <p>To toggle visability you can use the class of 'visibility' or 'invisibility' instead of toggling display.</p>
+                    </li>
+                    <li>
+                        <p>Use margin and padding properties to control spacing and size of the components.</p>
+                    </li>
+                    <li>
+                        <p>Bootstrap has a default z-index scale for its elements. </p>
+                    </li>
+                    <li>
+                        <p>Bootstrap ha native font stack which depends on the OS of the device.</p>
+                    </li>
+
+                </ul>
+                
+               
+               
+            </section>
+            <section class='main-section' id='Reference'>
+                <header>Reference</header>
+                <p>For more information you can see the official documentation here: <a href='https://getbootstrap.com/' target='_blank'>https://getbootstrap.com/</a></p>
+            </section>
+        </main>
+
+    </body>
+</html>
