@@ -1,3 +1,5 @@
+The techincal documentation page about Bootstrap is located here https://wwyl1234.github.io/technical-documentation-page/.
+
 
 The requirements are from https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page.
 
